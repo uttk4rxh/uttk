@@ -15,5 +15,5 @@ currently exploring code, design, and whatever catches my interest.
 
 ## around the internet
 
-[![X](https://img.shields.io/badge/X-uttk4rxh-black?style=flat&logo=x)](https://x.com/uttk4rxh)
+[![X](https://img.shields.io/badge/X-uttk4rxh-black?style=flat&logo=x)](https://x.com/uttk4wrk)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-utkarsh-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/uttk4rxh/)
