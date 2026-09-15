@@ -275,36 +275,134 @@ body {
 .socials {
     display: flex;
     align-items: center;
-    gap: 22px;
-    margin-top: 4px;
+
+    gap: 24px;
+
+    margin-top: 14px;
+    margin-bottom: 24px;
+
+    /* Align with the existing terminal output */
+    padding-left: 0;
 }
 
 .social-icon {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    opacity: 0.45;
+    color: #ffffff;
+
+    opacity: 0.55;
+
+    text-decoration: none;
 
     transition:
         opacity 0.2s ease,
         transform 0.2s ease;
 }
 
-.social-icon img {
-    width: 100%;
-    height: 100%;
-    filter: grayscale(1);
+.social-icon svg {
+    width: 22px;
+    height: 22px;
+
+    display: block;
+
+    fill: currentColor;
 }
 
 .social-icon:hover {
     opacity: 1;
     transform: translateY(-2px);
 }
+/* Keep social icons visible */
+.socials {
+    opacity: 1 !important;
+    visibility: visible !important;
 
-.social-icon:active {
-    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    margin-top: 18px;
+    margin-bottom: 30px;
+    padding-left: 22px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+    opacity: 0.65;
+
+    text-decoration: none;
+
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.social-icon svg {
+    width: 22px;
+    height: 22px;
+
+    display: block;
+    fill: currentColor;
+}
+
+.social-icon:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+}
+/* =========================
+   SOCIALS - FINAL
+   ========================= */
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    margin-top: 18px;
+    margin-bottom: 30px;
+
+    padding-left: 22px;
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+
+    opacity: 0.7;
+    visibility: visible;
+
+    text-decoration: none;
+}
+
+.social-icon svg {
+    width: 22px;
+    height: 22px;
+
+    display: block;
+
+    fill: currentColor;
+}
+
+.social-icon:hover {
+    opacity: 1;
+    transform: translateY(-2px);
 }
